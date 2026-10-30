@@ -1,0 +1,21 @@
+{
+  "name": "repoprism",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "cd repoprism-app && npm run build",
+    "dev:frontend": "cd repoprism-app && npm run dev",
+    "dev:backend": "cd server && npm run dev"
+  },
+  "dependencies": {
+    "@google/genai": "^2.32.0",
+    "@octokit/rest": "^21.1.1",
+    "dotenv": "^16.4.7",
+    "zod": "^3.24.2"
+  },
+  "devDependencies": {
+    "@types/node": "^22.13.9",
+    "typescript": "^5.8.2"
+  }
+}
